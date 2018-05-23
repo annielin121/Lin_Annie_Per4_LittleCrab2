@@ -1,0 +1,68 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Mario here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Mario extends Actor
+{
+    private GreenfootImage image1;
+    private GreenfootImage image2;
+    int coinCounter;
+    /**
+     * Act - do whatever the Mario wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+        checkKeys();
+        lookForCoins();
+    }    
+    public void changeImage()
+    {
+        if(getImage() == image1)
+        {
+            setImage(image2);
+        }
+        else
+        {
+            setImage(image1);
+        }
+    }
+    /**
+     * Defining what each arrow key does when pressed
+     */
+    public void checkKeys()
+    {
+        if (Greenfoot.isKeyDown("left"))
+        {
+            // Walk left
+            // Change image
+        }
+        if (Greenfoot.isKeyDown("right"))
+        {
+            // Walk right
+            // Change image
+        }
+        if (Greenfoot.isKeyDown("up"))
+        {
+            // Jump up
+            // Change image
+        }
+        if (Greenfoot.isKeyDown("down"))
+        {
+            // Squat down
+            // Change image
+        }
+    }
+    /**
+     * Mario will collect coins and will play a sound when doing so
+     * coinCounter will increase by 1 everytime a Coin is collected
+     */
+    public void lookForCoins()
+    {
+        
+    }
+}
