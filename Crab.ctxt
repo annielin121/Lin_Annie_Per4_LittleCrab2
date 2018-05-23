@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Crab
+comment0.text=\r\n\ This\ class\ defines\ a\ crab.\ Crabs\ live\ on\ the\ beach.\r\n
+comment1.params=
+comment1.target=Crab()
+comment1.text=\r\n\ Create\ a\ crab\ and\ initialize\ its\ two\ images.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ crab\ wants\ to\ do.\r\n
+comment3.params=
+comment3.target=void\ switchImage()
+comment3.text=\r\n\ Switches\ image\ of\ the\ crab\ according\ to\ the\ condition\ evaluated\r\n
+comment4.params=
+comment4.target=void\ checkKeypress()
+comment4.text=\r\n\ Check\ whether\ a\ control\ key\ on\ the\ keyboard\ has\ been\ pressed.\r\n\ If\ it\ has,\ react\ accordingly.\r\n
+comment5.params=
+comment5.target=void\ lookForWorm()
+comment5.text=\r\n\ Check\ whether\ we\ have\ stumbled\ upon\ a\ worm.\ \r\n\ If\ we\ have,\ eat\ it.\ If\ not,\ do\ nothing.\r\n\ eaten\ eight\ worms,\ we\ win.\r\n
+numComments=6
